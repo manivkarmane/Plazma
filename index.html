@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="ПЛАЗМА — цифровая библиотека по заработку с ИИ: три набора файлов для самостоятельного чтения. Без видеоуроков, доход не гарантирован.">
+<meta name="theme-color" content="#020503">
+<meta property="og:type" content="website"><meta property="og:title" content="ПЛАЗМА — заработок с ИИ"><meta property="og:description" content="Три набора файлов для самостоятельного чтения: от основ до автоматизации.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+<title>ПЛАЗМА — заработок с ИИ</title>
+<style>
+:root{color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#020503;--g:#1fe055;--lt:#5dff8a;--text:#eafff0;--mut:#8fbf9d;--ln:rgba(93,255,138,.16)}
+html{scroll-behavior:smooth;scroll-padding-top:90px}*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.lq{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;opacity:.8}.lq svg{width:100%;height:100%}.lq path{fill:none;stroke-linecap:round}
+.o{position:absolute;border-radius:50%;filter:blur(80px);background:#0c9a30;opacity:.28;animation:dr 16s ease-in-out infinite}.o1{width:40vw;height:40vw;left:-10vw;top:30vh}.o2{width:34vw;height:34vw;right:-8vw;top:-6vh;animation-delay:-7s}
+@keyframes dr{50%{transform:translate(6vw,5vh) scale(1.15)}}
+.w{max-width:1120px;margin:auto;padding:0 5vw;position:relative;z-index:1}
+.glass{background:rgba(4,18,9,.58);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--ln);border-radius:22px;position:relative;overflow:hidden;transition:transform .4s,border-color .4s}
+.glass::before{content:"";position:absolute;inset:0;background:radial-gradient(280px circle at var(--mx,50%) var(--my,0%),rgba(93,255,138,.16),transparent 60%);opacity:0;transition:opacity .4s;pointer-events:none}
+.glass:hover{border-color:rgba(93,255,138,.45)}.glass:hover::before{opacity:1}
+nav{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);z-index:10;width:min(92vw,740px);display:flex;justify-content:space-between;align-items:center;padding:9px 10px 9px 24px;border-radius:60px;background:rgba(3,14,7,.65);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid var(--ln)}
+.logo{font-weight:800;letter-spacing:.22em;font-size:15px}.logo i{color:var(--lt);font-style:normal}
+nav .l{display:flex;gap:24px;font-size:13px;color:var(--mut)}nav .l a:hover{color:var(--text)}
+.b{display:inline-block;padding:13px 26px;border-radius:50px;font-size:14px;font-weight:700;border:1px solid var(--ln);background:rgba(255,255,255,.04);color:var(--text);cursor:pointer;transition:.3s;font-family:inherit}
+.b:hover{border-color:var(--lt);transform:translateY(-2px)}
+.b.p{background:var(--g);border-color:var(--g);color:#021208}.b.p:hover{background:var(--lt);box-shadow:0 10px 36px -8px var(--g)}
+.sm{padding:10px 20px;font-size:13px}
+.eb{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--lt);font-weight:600}
+.eb::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--lt);box-shadow:0 0 12px var(--lt);animation:pl 2s infinite}@keyframes pl{50%{opacity:.3}}
+.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;padding:130px 0 70px}
+h1{font-size:clamp(44px,7.6vw,96px);line-height:1;letter-spacing:-.04em;margin:22px 0;background:linear-gradient(100deg,#fff 20%,#7dffa3 50%,#fff 80%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:sh 7s ease-in-out infinite alternate}
+@keyframes sh{to{background-position:100% 0}}
+.hero p{max-width:480px;color:var(--mut);font-size:16px;margin-bottom:30px}.bt{display:flex;gap:12px;flex-wrap:wrap}
+.stack{position:relative;height:400px}
+.stack .glass{position:absolute;padding:22px 24px;width:250px;animation:fl 7s ease-in-out infinite}
+.stack .glass b{display:block;font-size:34px;letter-spacing:-.02em;color:var(--lt)}.stack .glass span{font-size:13px;color:var(--mut)}.stack .glass small{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--lt);margin-bottom:8px}
+.s1{top:0;left:6%;rotate:-4deg}.s2{top:130px;right:0;rotate:3deg;animation-delay:-2.5s!important}.s3{bottom:0;left:14%;rotate:-2deg;animation-delay:-5s!important}
+@keyframes fl{50%{transform:translateY(-16px)}}
+.pg{position:fixed;top:0;left:0;right:0;height:2px;z-index:30;background:linear-gradient(90deg,var(--g),var(--lt));transform:scaleX(0);transform-origin:left}
+.mq{position:relative;z-index:1;overflow:hidden;white-space:nowrap;border-block:1px solid var(--ln);background:rgba(2,8,4,.6);padding:16px 0;font-size:14px;letter-spacing:.3em;text-transform:uppercase;color:var(--lt)}.mq div{display:inline-block;animation:mq 28s linear infinite}@keyframes mq{to{transform:translateX(-50%)}}
+section{padding:96px 0}
+.sh{display:flex;gap:22px;align-items:flex-start;margin-bottom:40px}.no{font-size:13px;font-weight:700;color:var(--lt);border:1px solid var(--ln);border-radius:30px;padding:5px 12px;margin-top:6px}
+h2{font-size:clamp(30px,5vw,52px);letter-spacing:-.03em;line-height:1.06;margin-top:10px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);padding:34px 10px;margin-top:70px}.stats div{padding:0 22px;border-left:1px solid var(--ln)}.stats div:first-child{border:0}
+.stats b{display:block;font-size:clamp(34px,5vw,56px);letter-spacing:-.04em;line-height:1;color:var(--lt)}.stats span{font-size:13px;color:var(--mut)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;position:relative}.steps .glass{padding:30px}
+.steps em{font-style:normal;font-size:70px;font-weight:800;line-height:1;letter-spacing:-.05em;background:linear-gradient(180deg,var(--lt),transparent);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.steps h3{font-size:20px;margin:12px 0 8px}.steps p{font-size:14px;color:var(--mut)}
+.tabs{display:inline-flex;gap:6px;padding:6px;border:1px solid var(--ln);border-radius:60px;background:rgba(3,14,7,.6);margin-bottom:22px;flex-wrap:wrap}
+.tab{border:0;background:none;color:var(--mut);font:600 14px inherit;font-family:inherit;padding:11px 22px;border-radius:40px;cursor:pointer;transition:.3s}.tab.on{background:var(--g);color:#021208}.tab small{opacity:.7;font-weight:500;margin-left:6px}
+.pn{padding:34px;display:grid;grid-template-columns:.8fr 1.2fr;gap:30px}.pn[hidden]{display:none}.pn h3{font-size:28px;letter-spacing:-.02em;margin:10px 0}.pn .meta{color:var(--mut);font-size:14px}
+.pn ul{list-style:none;display:grid;gap:12px}.pn li{padding-left:30px;position:relative;font-size:15px}.pn li::before{content:"";position:absolute;left:0;top:6px;width:14px;height:14px;border-radius:50%;background:radial-gradient(circle,var(--lt) 30%,transparent 35%);border:1px solid var(--lt)}.pn li.pl::before{border-style:dashed}
+.lab2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.lab2 .glass{padding:32px}
+.lab2 h3{font-size:24px;letter-spacing:-.02em;margin:10px 0 8px}.lab2 p{font-size:14px;color:var(--mut);margin-bottom:16px}
+.in{width:100%;padding:14px 16px;margin-bottom:10px;border-radius:12px;border:1px solid var(--ln);background:rgba(1,8,3,.8);color:var(--text);font:15px inherit;font-family:inherit}.in:focus{outline:2px solid var(--lt);outline-offset:1px}
+.pr{border:1px solid var(--ln);border-radius:14px;background:rgba(1,8,3,.8);padding:18px 20px;font-size:14px;line-height:1.65;margin:6px 0 16px}.pr em{font-style:normal;color:#ffd27a}.pr small{display:block;font-size:10px;letter-spacing:.16em;color:var(--lt);font-weight:600;margin-bottom:8px}
+.cur{display:inline-block;width:8px;height:1.05em;background:var(--lt);margin-left:2px;vertical-align:-3px;box-shadow:0 0 10px var(--lt);animation:bk .8s steps(1) infinite}@keyframes bk{50%{opacity:0}}
+.note{font-size:12px;color:var(--mut);margin-top:14px}
+.qz .qn{font-size:11px;letter-spacing:.16em;color:var(--lt);font-weight:600}.qz h4{font-size:22px;margin:10px 0 18px;letter-spacing:-.01em}
+.op{display:block;width:100%;text-align:left;padding:14px 18px;margin-bottom:10px;border-radius:12px;border:1px solid var(--ln);background:rgba(255,255,255,.03);color:var(--text);font:15px inherit;font-family:inherit;cursor:pointer;transition:.25s}.op:hover{border-color:var(--lt);background:rgba(93,255,138,.08);transform:translateX(4px)}
+.dots{display:flex;gap:6px;margin-bottom:14px}.dots i{height:3px;flex:1;border-radius:3px;background:var(--ln)}.dots i.on{background:var(--lt)}
+.res b{font-size:34px;letter-spacing:-.03em;color:var(--lt);display:block;margin:8px 0}.res p{margin-bottom:18px}
+.b{display:inline-block;padding:13px 26px;border-radius:50px;font-size:14px;font-weight:700;border:1px solid var(--ln);background:rgba(255,255,255,.04);color:var(--text);cursor:pointer;transition:.3s;font-family:inherit}.b:hover{border-color:var(--lt)}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+.t1{padding:32px;display:flex;flex-direction:column}.t1 .nm{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--lt);font-weight:600}
+.t1 h3{font-size:26px;margin:14px 0 2px}.pc{font-size:44px;font-weight:800;letter-spacing:-.03em;margin:4px 0 16px}
+.t1 ul{list-style:none;display:grid;gap:9px;flex:1;margin-bottom:22px;font-size:14px;color:var(--mut)}.t1 li::before{content:"✓ ";color:var(--lt);font-weight:700}.t1 .b{width:100%;text-align:center}
+.t1.hot{border-color:var(--lt);background:linear-gradient(165deg,rgba(31,224,85,.26),rgba(4,18,9,.7));transform:translateY(-14px)}
+.t1.rec{box-shadow:0 0 0 2px var(--lt),0 0 70px -8px rgba(31,224,85,.8)}.rt{display:none;position:absolute;top:16px;right:16px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;background:var(--g);color:#021208;padding:4px 10px;border-radius:20px;font-weight:700}.rec .rt{display:block}
+.fine{text-align:center;color:var(--mut);font-size:13px;margin-top:22px}
+details{border:1px solid var(--ln);border-radius:16px;background:rgba(4,18,9,.55);margin-bottom:10px;padding:0 22px;backdrop-filter:blur(12px)}
+summary{cursor:pointer;padding:18px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between}summary::-webkit-details-marker{display:none}summary::after{content:"+";color:var(--lt);font-size:22px;line-height:1}details[open] summary::after{content:"–"}details p{padding:0 0 18px;color:var(--mut);font-size:14px}
+.cta{text-align:center;padding:64px 6vw;margin-bottom:70px}.cta h2{margin:0 0 14px}.cta p{max-width:560px;margin:0 auto 26px;color:var(--mut);font-size:13px}
+footer{position:relative;z-index:1;border-top:1px solid var(--ln);padding:26px 0;font-size:12px;color:var(--mut)}footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s,transform .9s}.rv.on2{opacity:1;transform:none}
+.toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom,0px));transform:translate(-50%,30px);background:#06200d;border:1px solid var(--lt);padding:13px 22px;border-radius:12px;font-size:14px;opacity:0;transition:.4s;z-index:20;pointer-events:none}.toast.on{opacity:1;transform:translate(-50%,0)}
+.fab{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translate(-50%,40px);z-index:9;display:flex;align-items:center;gap:10px;padding:15px 28px;border-radius:60px;background:var(--g);color:#021208;font-weight:800;font-size:15px;opacity:0;pointer-events:none;transition:opacity .5s,transform .5s;box-shadow:0 10px 40px -8px rgba(31,224,85,.8)}.fab.on{opacity:1;transform:translate(-50%,0);pointer-events:auto}.fab:hover{background:var(--lt)}.fab::after{content:"→";font-size:18px}
+/* scroll animations */
+.lq{opacity:calc(.62 + var(--sp,0)*.38)}.o1{translate:0 calc(var(--sp,0)*-35vh)}.o2{translate:0 calc(var(--sp,0)*28vh)}
+.s1{translate:0 calc(var(--hs,0)*-50px)}.s2{translate:0 calc(var(--hs,0)*-110px)}.s3{translate:0 calc(var(--hs,0)*-190px)}
+.mf{padding:70px 0 10px}.lit{font-size:clamp(26px,4.6vw,56px);font-weight:700;line-height:1.22;letter-spacing:-.03em;max-width:980px}
+.lit span{color:rgba(234,255,240,.16);transition:color .35s,text-shadow .35s}.lit span.a{color:#fff;text-shadow:0 0 26px rgba(93,255,138,.45)}
+.pin{height:280vh;position:relative}.stage{position:sticky;top:0;height:100vh;display:grid;grid-template-columns:auto 1fr 300px;gap:34px;align-items:center}
+.rail{width:3px;height:46vh;background:var(--ln);border-radius:3px;position:relative}.rail b{position:absolute;left:0;top:0;width:100%;height:calc(var(--p,0)*100%);background:linear-gradient(var(--g),var(--lt));box-shadow:0 0 14px var(--lt);border-radius:3px}
+.sl{position:relative;height:300px}.sx{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;opacity:0;transform:translateY(40px);transition:opacity .6s,transform .6s;pointer-events:none}.sx.on{opacity:1;transform:none;pointer-events:auto}
+.sx em{font-style:normal;font-size:clamp(80px,12vw,150px);font-weight:800;line-height:.9;letter-spacing:-.05em;background:linear-gradient(180deg,var(--lt),transparent);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sx h3{font-size:clamp(26px,3.6vw,40px);letter-spacing:-.03em;margin:14px 0 10px}.sx p{font-size:16px;color:var(--mut);max-width:440px}
+.rw{position:relative;width:280px;aspect-ratio:1;display:grid;place-items:center}.rw span{font-size:56px;font-weight:800;color:var(--lt);letter-spacing:-.03em}
+.ringp{position:absolute;inset:0;border-radius:50%;background:conic-gradient(var(--lt) calc(var(--p,0)*360deg),rgba(93,255,138,.12) 0);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 12px),#000 calc(100% - 11px));mask:radial-gradient(farthest-side,transparent calc(100% - 12px),#000 calc(100% - 11px));filter:drop-shadow(0 0 22px rgba(93,255,138,.5))}
+.tiers .t1:nth-child(1).rv{transform:translateX(-70px) rotate(-3deg)}.tiers .t1:nth-child(3).rv{transform:translateX(70px) rotate(3deg)}.tiers .t1:nth-child(2).rv{transform:translateY(80px) scale(.93)}
+.tiers .t1.rv.on2{transform:none}.tiers .t1:nth-child(2).rv.on2{transform:translateY(-14px)}
+.rv{transition:opacity .9s cubic-bezier(.22,.8,.2,1),transform .9s cubic-bezier(.22,.8,.2,1)}
+button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.vz{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:22px}.vz small{font-size:13px;color:var(--mut)}
+.ch,.pay{padding:10px 16px;border-radius:30px;border:1px solid var(--ln);font-size:13px;font-weight:600;color:var(--mut);background:rgba(255,255,255,.03)}
+.sx.on .ch{animation:chh 3.6s infinite}.sx.on .ch:nth-child(2){animation-delay:1.2s}.sx.on .ch:nth-child(3){animation-delay:2.4s}
+@keyframes chh{0%,30%{color:#021208;background:var(--lt);border-color:var(--lt);box-shadow:0 0 24px rgba(93,255,138,.6)}40%,100%{color:var(--mut);background:rgba(255,255,255,.03);border-color:var(--ln);box-shadow:none}}
+.sx.on .pay{animation:pp 2.4s infinite}.sx.on .pay:nth-child(2){animation-delay:1.2s}@keyframes pp{50%{border-color:var(--lt);color:var(--text);box-shadow:0 0 18px rgba(93,255,138,.4)}}
+.ok2{color:var(--lt);font-weight:700;font-size:14px;opacity:0}.sx.on .ok2{animation:okk 3s .8s infinite}@keyframes okk{0%,15%{opacity:0;transform:translateY(8px)}30%,85%{opacity:1;transform:none}100%{opacity:0}}
+.doc{width:62px;height:80px;border-radius:6px;background:#f7faf5;padding:12px 9px;display:grid;gap:7px;align-content:start;box-shadow:0 0 30px -6px rgba(93,255,138,.6)}.doc i{display:block;height:5px;border-radius:3px;background:#a9bfb0;transform-origin:left;transform:scaleX(0)}
+.sx.on .doc i{animation:ln 3.2s infinite}.sx.on .doc i:nth-child(2){animation-delay:.25s}.sx.on .doc i:nth-child(3){animation-delay:.5s}.sx.on .doc i:nth-child(4){animation-delay:.75s}@keyframes ln{0%{transform:scaleX(0)}25%,80%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+@media(prefers-reduced-motion:reduce){.ok2{opacity:1}.doc i{transform:none}}.lite .ok2{opacity:1}.lite .doc i{transform:none}
+@media(max-width:860px){.pin{height:auto}.stage{position:static;height:auto;display:block}.rail,.rw{display:none}.sl{height:auto;width:100%}
+.sx{position:relative;inset:auto;margin-bottom:14px;padding:24px;border:1px solid var(--ln);border-radius:20px;background:rgba(4,18,9,.82);opacity:0;transform:translateY(26px)}.sx.on{opacity:1;transform:none}.sx em{font-size:64px}.sx h3{margin:8px 0 6px}
+.s1,.s2,.s3{translate:none}.tiers .t1:nth-child(1).rv,.tiers .t1:nth-child(2).rv,.tiers .t1:nth-child(3).rv{transform:translateY(24px)}.tiers .t1:nth-child(n).rv.on2{transform:none}
+.glass,nav,details{backdrop-filter:none;-webkit-backdrop-filter:none}.glass{background:rgba(4,18,9,.82)}nav{background:rgba(3,14,7,.92)}.glass::before{display:none}
+.o{filter:blur(46px)}.lq svg g[filter]{display:none}.cg{display:none}.fab{padding:13px 22px;font-size:14px}.rv{transform:translateY(22px)}}
+@media(prefers-reduced-motion:reduce){.pin{height:auto}.stage{position:static;height:auto;display:block}.sx{position:static;opacity:1;transform:none;margin-bottom:28px}.sl{height:auto}.rail,.rw{display:none}.lit span{color:#fff}}
+.lite .pin{height:auto}.lite .stage{position:static;height:auto;display:block}.lite .sx{position:static;opacity:1;transform:none;margin-bottom:28px}.lite .sl{height:auto}.lite .rail,.lite .rw{display:none}.lite .lit span{color:#fff}
+.rt{display:flex;align-items:center;gap:8px}
+.lt{display:flex;align-items:center;gap:8px;padding:8px 10px 8px 14px;border-radius:40px;border:1px solid var(--ln);background:rgba(255,255,255,.04);color:var(--mut);font-weight:600;font-size:12px;font-family:inherit;cursor:pointer;transition:.3s}
+.lt:hover{border-color:var(--lt);color:var(--text)}.lt i{width:30px;height:16px;border-radius:10px;background:rgba(93,255,138,.16);position:relative;transition:.3s}
+.lt i::after{content:"";position:absolute;left:2px;top:2px;width:12px;height:12px;border-radius:50%;background:var(--mut);transition:.3s}
+.lt[aria-checked="true"]{color:var(--lt);border-color:var(--lt)}.lt[aria-checked="true"] i{background:var(--g)}.lt[aria-checked="true"] i::after{transform:translateX(14px);background:#021208}
+.lagb{position:fixed;top:calc(78px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);z-index:12;width:min(92vw,560px);display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 16px 14px 20px;border-radius:20px;font-size:13px;line-height:1.4;animation:lg .6s cubic-bezier(.22,.8,.2,1)}
+.lagb[hidden]{display:none}.lagb div{display:flex;gap:8px;flex:none}@keyframes lg{from{opacity:0;transform:translate(-50%,-14px)}}
+@media(max-width:440px){nav{padding-left:16px}.lt{padding:7px 8px 7px 10px;font-size:11px;gap:6px}.lt i{width:26px}.rt{gap:6px}nav .b.sm{padding:9px 13px;font-size:12px}.lagb{flex-direction:column;align-items:stretch}.lagb div{justify-content:flex-end}}
+.cg{position:fixed;width:380px;height:380px;border-radius:50%;pointer-events:none;z-index:0;background:radial-gradient(circle,rgba(93,255,138,.2),transparent 65%);transform:translate(-50%,-50%);left:-999px;top:-999px;mix-blend-mode:screen}.lq svg{transition:transform .8s ease-out}
+.bk{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center;padding:36px}.bk h3{font-size:28px;letter-spacing:-.02em;margin:10px 0}.bk p{color:var(--mut);font-size:14px;margin-bottom:20px}
+.pgs{position:relative;aspect-ratio:3/4;max-width:330px;width:100%;margin:auto;perspective:1400px}
+.sheet{position:absolute;inset:0;background:#f7faf5;color:#14201a;border-radius:6px 14px 14px 6px;padding:26px 24px;font-size:12.5px;line-height:1.55;box-shadow:0 30px 70px -20px rgba(0,0,0,.85),0 0 60px -20px rgba(31,224,85,.5);transform-origin:left center;transition:transform .9s cubic-bezier(.3,.8,.2,1),opacity .6s;overflow:hidden}
+.sheet.fl{transform:rotateY(-155deg);opacity:0;pointer-events:none}.sheet h5{font-size:15px;color:#0a7a2a;margin-bottom:10px;line-height:1.3}.sheet .gb{background:#e7f1ea;border-left:3px solid #0a7a2a;padding:9px 11px;margin:9px 0;font-size:11.5px}
+.sheet .bar{height:8px;border-radius:4px;background:#c9d4cc;margin-bottom:9px;filter:blur(2px)}.lk{position:absolute;inset:auto 0 28px 0;text-align:center;font-weight:700;color:#0a7a2a;font-size:14px}
+.pn2{display:flex;gap:10px;align-items:center}.pn2 span{font-size:13px;color:var(--mut);min-width:48px;text-align:center}
+.fit{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.fit .glass{padding:30px}.fit h3{font-size:20px;margin-bottom:14px}.fit ul{list-style:none;display:grid;gap:10px;font-size:14px;color:var(--mut)}.fit li{padding-left:26px;position:relative}.fit .y li::before{content:"✓";position:absolute;left:0;color:var(--lt);font-weight:700}.fit .n li::before{content:"✕";position:absolute;left:0;color:#ff8a7a;font-weight:700}
+.calc{margin-top:16px;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.calc h3{font-size:22px;margin:8px 0}.calc p{font-size:13px;color:var(--mut)}.calc label{display:block;font-size:12px;color:var(--mut);margin-bottom:4px}
+.cr b{display:block;font-size:46px;letter-spacing:-.04em;color:var(--lt);line-height:1.1}.cr small{display:block;color:var(--mut);font-size:13px;margin-top:6px}
+.lite *,.lite *::before{animation:none!important;transition:none!important}.lite .lq,.lite .cg{display:none}.lite .glass,.lite nav,.lite details{backdrop-filter:none;-webkit-backdrop-filter:none}.lite .rv{opacity:1;transform:none}
+@media(max-width:860px){.bk,.fit,.calc{grid-template-columns:1fr}.bk{padding:26px}}
+.lt{position:fixed;z-index:11;top:calc(25px + env(safe-area-inset-top,0px));left:20px;background:rgba(3,14,7,.38);opacity:.58;font-weight:500;letter-spacing:.02em;padding:7px 9px 7px 14px;transition:opacity .3s,border-color .3s,color .3s}
+.lt:hover,.lt:focus-visible{opacity:1}.lt[aria-checked="true"]{opacity:.9}
+@media(max-width:860px){.lt{top:calc(76px + env(safe-area-inset-top,0px));left:12px;font-size:10.5px;padding:5px 7px 5px 11px;gap:7px}.lt i{width:24px;height:14px}.lt i::after{width:10px;height:10px}.lt[aria-checked="true"] i::after{transform:translateX(10px)}.lagb{top:calc(112px + env(safe-area-inset-top,0px))}}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--lt);outline-offset:3px}
+@media(max-width:860px){.hero{grid-template-columns:1fr;padding-top:120px}.stack{height:auto;display:grid;gap:14px}.stack .glass{position:static;width:100%;rotate:0deg;animation:none}nav .l{display:none}section{padding:64px 0}.steps,.tiers,.lab2,.pn{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr;gap:22px 0}.stats div:nth-child(3){border:0}.t1.hot{transform:none}.sh{flex-direction:column;gap:6px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="pg" id="pg"></div>
+<button class="lt" id="ltn" role="switch" aria-checked="false" title="Облегчённый режим: меньше анимаций, быстрее работа"><span>Интерфейс сайта</span><i></i></button>
+<div class="lq"><i class="o o1"></i><i class="o o2"></i><svg viewBox="0 0 1000 700" preserveAspectRatio="none"><defs><filter id="f" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
+<path id="p1" d="M-50 520 C150 460 250 300 420 280 S700 120 760 -40"><animate attributeName="d" dur="14s" repeatCount="indefinite" values="M-50 520 C150 460 250 300 420 280 S700 120 760 -40;M-50 470 C120 520 300 390 400 300 S650 210 820 -40;M-50 520 C150 460 250 300 420 280 S700 120 760 -40"/></path>
+<path id="p2" d="M300 720 C350 520 500 420 540 220 S520 60 600 -40"><animate attributeName="d" dur="17s" repeatCount="indefinite" values="M300 720 C350 520 500 420 540 220 S520 60 600 -40;M340 720 C300 540 470 400 580 240 S560 80 540 -40;M300 720 C350 520 500 420 540 220 S520 60 600 -40"/></path>
+<path id="p3" d="M820 720 C760 520 900 420 860 240 S940 80 900 -40"><animate attributeName="d" dur="19s" repeatCount="indefinite" values="M820 720 C760 520 900 420 860 240 S940 80 900 -40;M870 720 C800 500 860 440 910 260 S900 100 970 -40;M820 720 C760 520 900 420 860 240 S940 80 900 -40"/></path>
+<path id="p4" d="M-50 700 C200 640 350 560 480 460 S800 380 1050 420"><animate attributeName="d" dur="21s" repeatCount="indefinite" values="M-50 700 C200 640 350 560 480 460 S800 380 1050 420;M-50 650 C200 710 360 540 500 500 S780 330 1050 380;M-50 700 C200 640 350 560 480 460 S800 380 1050 420"/></path></defs>
+<g stroke="#2cff6a" filter="url(#f)" stroke-width="14"><use href="#p1"/><use href="#p2"/><use href="#p4"/></g>
+<g stroke="#5dff8a" stroke-width="3"><use href="#p1"/><use href="#p2"/><use href="#p4"/></g>
+<g stroke="#2cff6a" stroke-width="1.4" opacity=".7"><use href="#p3"/><use href="#p3" transform="translate(-22 0)"/><use href="#p3" transform="translate(-44 0)"/><use href="#p2" transform="translate(30 0)"/><use href="#p1" transform="translate(0 26)"/></g></svg></div>
+<nav><a class="logo" href="#">ПЛАЗМА<i>.</i></a><div class="l"><a href="#how">Как это работает</a><a href="#inside">Что внутри</a><a href="#faq">Вопросы</a></div><a class="b p sm" href="#tarify">Выбрать набор</a></nav>
+
+<div class="w"><header class="hero"><div>
+<div class="eb">Цифровая библиотека · ИИ и новые возможности</div>
+<h1>Преврати ИИ в своё дело.</h1>
+<p>Разберись в нейросетях и способах заработка с ИИ. Информация в удобных файлах: читай в своём темпе, выбирай нужные темы и возвращайся к важному.</p>
+<div class="bt"><a class="b p" href="#tarify">Выбрать обучение</a><a class="b" href="#inside">Что внутри курса</a></div></div>
+<div class="stack"><div class="glass s1"><small>Формат</small><b>PDF</b><span>файлы для чтения, без видеоуроков</span></div><div class="glass s2"><small>Три уровня</small><b>3 набора</b><span>от основ до автоматизации</span></div><div class="glass s3"><small>Старт</small><b>от 1 490 ₽</b><span>цены предварительные</span></div></div></header></div>
+
+
+<div class="mq"><div>Тексты ✦ Дизайн ✦ Видео ✦ Автоматизация ✦ Тексты ✦ Дизайн ✦ Видео ✦ Автоматизация ✦ Тексты ✦ Дизайн ✦ Видео ✦ Автоматизация ✦ Тексты ✦ Дизайн ✦ Видео ✦ Автоматизация ✦ </div></div>
+<div class="w">
+<div class="glass stats rv"><div><b data-n="8">0</b><span>разборов услуг с запросами</span></div><div><b data-n="5">0</b><span>сценариев автоматизации</span></div><div><b data-n="28">0</b><span>разделов в полном наборе</span></div><div><b data-n="23">0</b><span>страницы, которые можно читать в своём темпе</span></div></div>
+
+<section class="mf"><p class="lit" id="lit">ИИ не сделает тебя богатым. Но с понятным планом, готовыми запросами и честными расчётами ты проверишь свою идею и сделаешь первый шаг.</p></section>
+
+<section id="how"><div class="sh rv"><span class="no">01</span><div><div class="eb">Как это работает</div><h2>Три шага до первого файла.</h2></div></div>
+<div class="pin" id="pin"><div class="stage"><div class="rail"><b></b></div>
+<div class="sl"><div class="sx on"><em>01</em><h3>Выбери набор</h3><p>Три уровня: от основ до автоматизации. Каждый следующий включает предыдущий.</p><div class="vz"><span class="ch">Старт</span><span class="ch">Практика</span><span class="ch">Система</span></div></div><div class="sx"><em>02</em><h3>Оплати онлайн</h3><p>Картой или через СБП. Чек придёт автоматически.</p><div class="vz"><span class="pay">Карта</span><span class="pay">СБП</span><span class="ok2">✓ Чек придёт сам</span></div></div><div class="sx"><em>03</em><h3>Читай в своём темпе</h3><p>Файл приходит сразу после оплаты. Возвращайся к нему когда нужно.</p><div class="vz"><div class="doc"><i></i><i></i><i></i><i></i></div><small>Файл для чтения · без видеоуроков</small></div></div></div>
+<div class="rw"><div class="ringp"></div><span id="rn">01</span></div></div></div></section>
+
+<section id="inside" style="padding-top:20px"><div class="sh rv"><span class="no">02</span><div><div class="eb">Что внутри материалов</div><h2>Открой оглавление до покупки.</h2></div></div>
+<div class="rv"><div class="tabs" role="tablist"><button class="tab on" role="tab" aria-selected="true" data-k="0">Старт<small>1 490 ₽</small></button><button class="tab" role="tab" aria-selected="false" data-k="1">Практика<small>2 990 ₽</small></button><button class="tab" role="tab" aria-selected="false" data-k="2">Система<small>4 490 ₽</small></button></div>
+<div class="glass pn" id="p0"><div><div class="eb">Набор 01</div><h3>Старт</h3><p class="meta">10 страниц · 14 разделов. Основы, запросы и первый план действий.</p></div><ul><li>Как работают нейросети: сильные и слабые стороны</li><li>Формула запроса и 6 готовых шаблонов</li><li>Чек-лист проверки результата</li><li>4 модели заработка и 5 направлений для старта</li><li>Правила честной и безопасной работы</li><li>План на 7 дней до первого предложения клиенту</li><li>Словарь, выбор нейросети, 10 частых ошибок в запросах</li><li>10 вопросов клиенту, организация работы, FAQ</li></ul></div>
+<div class="glass pn" id="p1" hidden><div><div class="eb">Набор 02</div><h3>Практика</h3><p class="meta">17 страниц · 20 разделов. Всё из «Старта» и подробные разборы услуг.</p></div><ul><li class="pl">Всё из набора «Старт»</li><li>Выбор ниши и упаковка услуги: карточка услуги</li><li>8 разборов услуг: шаги, запрос, проверка, срок, риски</li><li>Цены: пакеты и ориентиры для старта</li><li>Примеры расчёта заработка (учебная арифметика)</li><li>Портфолио без клиентов</li><li>От услуги к продукту: шаблоны и наборы</li></ul></div>
+<div class="glass pn" id="p2" hidden><div><div class="eb">Набор 03</div><h3>Система</h3><p class="meta">23 страницы · 28 разделов. Всё из «Практики», автоматизация и поиск клиентов.</p></div><ul><li class="pl">Всё из наборов «Старт» и «Практика»</li><li>ИИ-агенты и автоматизация: 5 готовых сценариев</li><li>Конвейеры из нескольких нейросетей</li><li>Поиск клиентов: воронка, 5 шаблонов сообщений, возражения</li><li>Документы и работа с деньгами</li><li>Рост: абонементы и метрики</li><li>12 ошибок новичков, план на 30 и 90 дней</li><li>Библиотека запросов, шаблоны КП и ТЗ</li></ul></div></div>
+
+<div class="lab2"><div class="glass rv"><div class="eb">Мини-проба / Без покупки</div><h3>Собери запрос под себя</h3><p>Впиши свои навыки и интересы, запрос обновится сам. Скопируй его в удобный ИИ-чат.</p>
+<input class="in" id="sk" placeholder="Что ты умеешь? Например, пишу тексты" maxlength="80"><input class="in" id="it" placeholder="Что интересно? Например, кулинария, маркетинг" maxlength="80">
+<div class="pr"><small>ЗАПРОС К ИИ</small><span id="q"></span></div><button class="b p" id="cp">Скопировать запрос</button><p class="note">Ответ ИИ — отправная точка, а не готовый бизнес-план. Проверяй факты, спрос и ограничения сервисов.</p></div>
+<div class="glass rv qz" id="pick"><div class="eb">Подбор набора</div><div id="qb"></div></div></div></section>
+
+<section id="preview" style="padding-top:20px"><div class="sh rv"><span class="no">03</span><div><div class="eb">Загляни внутрь</div><h2>Так выглядят страницы.</h2></div></div>
+<div class="glass bk rv"><div class="pgs" id="pgs">
+<div class="sheet" style="z-index:3"><div style="text-align:center;padding-top:70px"><div style="font-size:10px;letter-spacing:.3em;color:#666">НАБОР 01</div><div style="font-size:46px;font-weight:800;margin:10px 0">Старт</div><div style="font-size:13px;color:#333;line-height:1.4;padding:0 10px">Как зарабатывать с помощью ИИ: способы, разборы и примеры</div><div style="margin:26px auto;width:60px;height:3px;background:#0a7a2a"></div><div style="font-size:10px;color:#777">Материал для самостоятельного чтения</div></div></div>
+<div class="sheet" style="z-index:2"><h5>3. Как писать запросы, чтобы получать результат</h5><p>Хороший запрос состоит из пяти частей: <b>роль</b>, <b>задача</b>, <b>контекст</b>, <b>формат</b> и <b>ограничения</b>.</p><div class="gb"><b>Плохой запрос:</b> «Напиши описание товара.»</div><div class="gb"><b>Хороший запрос:</b> «Ты копирайтер для маркетплейса. Напиши описание кружки с двойными стенками. Формат: заголовок до 60 символов, 5 преимуществ. Не выдумывай характеристики, которых нет в параметрах.»</div><p><b>Проверка результата:</b> факты сверены, нет выдуманных ссылок, текст прочитан целиком.</p></div>
+<div class="sheet" style="z-index:1"><h5>4. Как вообще зарабатывают с ИИ</h5><div class="bar"></div><div class="bar" style="width:92%"></div><div class="bar" style="width:96%"></div><div class="bar" style="width:70%"></div><div class="bar" style="margin-top:18px"></div><div class="bar" style="width:88%"></div><div class="bar" style="width:94%"></div><div class="bar" style="width:60%"></div><div class="lk">Продолжение в наборе</div></div></div>
+<div><div class="eb">Страницы из набора «Старт»</div><h3>Листай как книгу.</h3><p>Две страницы открыты, остальное читай в наборе. Так выглядят все материалы: короткие блоки, готовые запросы и проверочные списки.</p><div class="pn2"><button class="b" id="pv" aria-label="Назад">‹</button><span id="pc">1 / 3</span><button class="b p" id="nx" aria-label="Дальше">›</button></div></div></div>
+<div class="fit"><div class="glass y rv"><h3>Подойдёт, если</h3><ul><li>хочешь разобраться в ИИ и пробовать на практике</li><li>готов проверять результаты, а не верить нейросети на слово</li><li>ищешь способ начать брать небольшие заказы</li><li>любишь читать и работать в своём темпе</li></ul></div>
+<div class="glass n rv"><h3>Не подойдёт, если</h3><ul><li>ждёшь быстрых денег без практики</li><li>хочешь видеоуроки и личное сопровождение</li><li>ищешь схему с гарантированным доходом</li><li>не готов тратить время на проверку и учёбу</li></ul></div></div>
+<div class="glass calc rv"><div><div class="eb">Мини-инструмент</div><h3>Сколько стоит твой заказ?</h3><p>Пример расчёта из раздела про цены. Подставь свои числа.</p><label for="cr">Желаемый доход в час, ₽</label><input class="in" id="cr" type="number" min="0" value="500"><label for="ch">Часов на заказ</label><input class="in" id="ch" type="number" min="0" step="0.5" value="2"><label for="cx">Расходы на сервисы, ₽</label><input class="in" id="cx" type="number" min="0" value="50"></div>
+<div class="cr"><span class="note" style="margin:0">Минимальная цена</span><b id="cm"></b><small>С запасом 20% на правки: <span id="cm2"></span></small><p style="margin-top:14px">Это ориентир, а не прогноз дохода. Сверь цену с похожими предложениями в своём регионе.</p></div></div></section>
+
+<section id="tarify"><div class="sh rv"><span class="no">04</span><div><div class="eb">Тарифы</div><h2>Три уровня. Больше глубины.</h2></div></div>
+<div class="tiers">
+<div class="glass t1 rv"><span class="rt">Тебе подходит</span><div class="nm">Набор 01 / Основы</div><h3>Старт</h3><div class="pc">1 490 ₽</div><ul><li>10 страниц, 14 разделов</li><li>6 шаблонов запросов</li><li>План на 7 дней</li><li>Чек-лист перед первым заказом</li></ul><button class="b buy">Выбрать набор</button></div>
+<div class="glass t1 hot rv"><span class="rt">Тебе подходит</span><div class="nm">Набор 02 / Расширенный</div><h3>Практика</h3><div class="pc">2 990 ₽</div><ul><li>17 страниц, 20 разделов</li><li>8 разборов услуг</li><li>Цены, пакеты и расчёты</li><li>Всё из «Старта»</li></ul><button class="b p buy">Выбрать набор</button></div>
+<div class="glass t1 rv"><span class="rt">Тебе подходит</span><div class="nm">Набор 03 / Полный</div><h3>Система</h3><div class="pc">4 490 ₽</div><ul><li>23 страницы, 28 разделов</li><li>5 сценариев автоматизации</li><li>Поиск клиентов и шаблоны</li><li>Всё из «Практики»</li></ul><button class="b buy">Выбрать набор</button></div></div>
+<p class="fine">Цены предварительные. Файлы для чтения, без видеоуроков, заданий и обратной связи.</p></section>
+
+<section id="faq" style="padding-top:20px"><div class="sh rv"><span class="no">05</span><div><div class="eb">Вопросы</div><h2>Коротко о главном.</h2></div></div>
+<div class="rv"><details><summary>В каком формате материалы?</summary><p>Файлы для самостоятельного чтения. Без видеоуроков, домашних заданий и обратной связи.</p></details>
+<details><summary>Как я получу файл?</summary><p>Ссылка на файл приходит после оплаты. Чек формируется автоматически.</p></details>
+<details><summary>Гарантирован ли доход?</summary><p>Нет. Доход зависит от практики, опыта и спроса на твои услуги.</p></details>
+<details><summary>Нужно ли платить за нейросети?</summary><p>Начать можно с бесплатных версий. Для работы могут понадобиться платные подписки, их условия лучше проверять заранее.</p></details>
+<details><summary>Можно ли вернуть деньги?</summary><p>Условия возврата будут указаны в оферте на сайте.</p></details></div></section>
+
+<div class="glass cta rv"><h2>Начни с навыка. Не с обещаний.</h2><p>Доход не гарантирован: он зависит от практики, опыта и спроса на ваши услуги. Оплата скоро заработает: пока можно оставить заявку в Telegram, и мы напишем, когда откроем продажи.</p><a class="b p" href="#tarify">Выбрать набор</a></div>
+</div>
+<footer><div class="w"><span>ПЛАЗМА · © 2026</span><span>Обучение для тех, кто делает. · <a href="#" id="lt" style="text-decoration:underline">Облегчённый режим</a></span></div></footer>
+<div class="lagb glass" id="lag" role="status" hidden><span>Сайт идёт медленно? Попробуй облегчённый режим: меньше анимаций, быстрее прокрутка.</span><div><button class="b p sm" id="lagy">Включить</button><button class="b sm" id="lagx" aria-label="Закрыть">Не нужно</button></div></div>
+<a class="fab" id="fab" href="#tarify">Выбрать набор</a>
+<div class="toast" id="ts"></div>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const ts=$('#ts');function t(m){ts.textContent=m;ts.classList.add('on');setTimeout(()=>ts.classList.remove('on'),2800)}
+$$('.buy').forEach(b=>b.onclick=()=>{const n=b.closest('.t1').querySelector('h3').textContent;open('https://t.me/Paxan18Z?text='+encodeURIComponent('Здравствуйте! Хочу набор «'+n+'». Сообщите, когда откроются продажи.'),'_blank','noopener')});
+function count(el){const n=+el.dataset.n;let s=null;(function f(x){s=s||x;const p=Math.min((x-s)/1400,1);el.textContent=Math.round(n*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(performance.now())}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on2');e.target.querySelectorAll('[data-n]').forEach(count);io.unobserve(e.target)}}),{threshold:.12});
+$$('.rv').forEach(el=>io.observe(el));
+!matchMedia('(hover:none)').matches&&$$('.glass').forEach(c=>c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')}));
+const pg=$('#pg');addEventListener('scroll',()=>{pg.style.transform='scaleX('+(scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight))+')'},{passive:true});
+!matchMedia('(hover:none)').matches&&$$('.b.p').forEach(b=>{b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();b.style.transform='translate('+(e.clientX-r.left-r.width/2)*.15+'px,'+(e.clientY-r.top-r.height/2)*.25+'px)'});b.addEventListener('pointerleave',()=>b.style.transform='')});
+$$('.tab').forEach(b=>b.onclick=()=>{$$('.tab').forEach(x=>{x.classList.toggle('on',x===b);x.setAttribute('aria-selected',x===b)});$$('.pn').forEach(p=>p.hidden=p.id!=='p'+b.dataset.k)});
+/* builder */
+const sk=$('#sk'),it=$('#it'),q=$('#q'),esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const mk=()=>'Я умею <em>'+(sk.value.trim()?esc(sk.value.trim()):'[твои навыки]')+'</em> и интересуюсь <em>'+(it.value.trim()?esc(it.value.trim()):'[твои интересы]')+'</em>. Предложи 3 услуги, которые я мог бы оказывать с помощью ИИ. Для каждой укажи: кому она нужна, какую проблему решает, какие навыки потребуются и как проверить спрос без вложений. Не обещай доход и отдельно отметь риски.';
+let typing=false,red=matchMedia('(prefers-reduced-motion: reduce)').matches;q.innerHTML=mk();q.style.display='block';q.style.minHeight=q.offsetHeight+'px';
+function upd(){if(!typing)q.innerHTML=mk()}sk.oninput=it.oninput=()=>{typing=false;upd()};
+if(!red)new IntersectionObserver((es,o)=>{if(es[0].isIntersecting){o.disconnect();typing=true;const f=mk();let i=0;(function s(){if(!typing)return;for(let k=0;k<2;k++){if(f[i]==='<')i=f.indexOf('>',i)+1;else i++}q.innerHTML=f.slice(0,i)+'<span class="cur"></span>';if(i<f.length)setTimeout(s,16);else{typing=false;upd()}})()}},{threshold:.6}).observe(q);
+$('#cp').onclick=()=>{const x=q.innerText;(navigator.clipboard?navigator.clipboard.writeText(x):Promise.reject()).then(()=>t('Запрос скопирован')).catch(()=>t('Выдели текст и скопируй вручную'))};
+/* quiz */
+const Q=[['Как у тебя с ИИ сейчас?',['Только знакомлюсь','Пользуюсь время от времени','Использую регулярно']],['Что хочешь получить?',['Понять, с чего начать','Начать брать заказы','Автоматизировать и вырасти']],['Сколько времени готов уделять?',['До часа в день','1–2 часа в день','Больше двух часов']]];
+const R=[['Старт','Разберёшься в основах, научишься писать запросы и составишь первый план на неделю.'],['Практика','Получишь подробные разборы услуг, цены и примеры расчётов, чтобы выйти на первых клиентов.'],['Система','Добавишь автоматизацию, поиск клиентов и рост: для тех, кто готов вкладываться глубже.']];
+let qi=0,sc=0;const qb=$('#qb');
+function rq(){if(qi<3){qb.innerHTML='<div class="dots">'+[0,1,2].map(i=>'<i'+(i<=qi?' class="on"':'')+'></i>').join('')+'</div><div class="qn">ВОПРОС '+(qi+1)+' ИЗ 3</div><h4>'+Q[qi][0]+'</h4>'+Q[qi][1].map((o,i)=>'<button class="op" data-i="'+i+'">'+o+'</button>').join('');$$('.op').forEach(b=>b.onclick=()=>{sc+=+b.dataset.i;qi++;rq()})}
+else{const k=sc<=2?0:sc<=4?1:2;qb.innerHTML='<div class="res"><div class="qn">РЕКОМЕНДАЦИЯ</div><b>'+R[k][0]+'</b><p>'+R[k][1]+'</p><a class="b p" href="#tarify" id="go">Показать набор</a> <button class="b" id="rs">Пройти заново</button></div>';$$('.t1').forEach((c,i)=>c.classList.toggle('rec',i===k));$('#rs').onclick=()=>{qi=0;sc=0;$$('.t1').forEach(c=>c.classList.remove('rec'));rq()}}}
+rq();
+/* fab */
+const fab=$('#fab'),tr=[$('#tarify'),$('.cta')];const hio=new IntersectionObserver(es=>{es.forEach(e=>{e.target._v=e.isIntersecting});fu()},{threshold:.1});tr.forEach(x=>hio.observe(x));
+function fu(){fab.classList.toggle('on',scrollY>innerHeight*.6&&!tr.some(x=>x._v))}addEventListener('scroll',fu,{passive:true});fu();
+const cg=document.createElement('div');cg.className='cg';document.body.appendChild(cg);const lsv=$('.lq svg');
+const HN=matchMedia('(hover:none)').matches;addEventListener('pointermove',e=>{if(HN)return;cg.style.left=e.clientX+'px';cg.style.top=e.clientY+'px';if(lsv)lsv.style.transform='translate('+(e.clientX/innerWidth-.5)*-34+'px,'+(e.clientY/innerHeight-.5)*-22+'px) scale(1.07)'},{passive:true});
+const sh=$$('.sheet');let pi=0;function pr(){sh.forEach((s,i)=>s.classList.toggle('fl',i<pi));$('#pc').textContent=(pi+1)+' / 3'}
+$('#nx').onclick=()=>{if(pi<2){pi++;pr()}};$('#pv').onclick=()=>{if(pi>0){pi--;pr()}};
+function cc(){const r=+$('#cr').value||0,h=+$('#ch').value||0,x=+$('#cx').value||0,m=Math.round(r*h+x);$('#cm').textContent=m.toLocaleString('ru-RU')+' ₽';$('#cm2').textContent=Math.round(m*1.2).toLocaleString('ru-RU')+' ₽'}
+['#cr','#ch','#cx'].forEach(k=>$(k).oninput=cc);cc();
+$('#lt').onclick=e=>{e.preventDefault();setLite(!root.classList.contains('lite'),true);t(root.classList.contains('lite')?'Облегчённый режим включён':'Анимации включены')};
+const root=document.documentElement,pin=$('#pin'),lit=$('#lit'),sxs=$$('.sx');
+lit.innerHTML=lit.textContent.trim().split(/\s+/).map(w=>'<span>'+w+'</span>').join(' ');const ls=$$('#lit span');
+const calm=()=>matchMedia('(prefers-reduced-motion: reduce)').matches||root.classList.contains('lite');let tk=false,tgt=0,cur=0,sr=false;const mb=()=>matchMedia('(max-width:860px)').matches;function sm(){if(sr)return;sr=true;(function f(){cur+=(tgt-cur)*.14;pin.style.setProperty('--p',cur.toFixed(4));if(Math.abs(tgt-cur)>.001)requestAnimationFrame(f);else sr=false})()}
+const cl=(v,a,b)=>Math.max(a,Math.min(b,v));
+function onS(){if(tk)return;tk=true;requestAnimationFrame(()=>{tk=false;const H=innerHeight,y=scrollY,mx=Math.max(1,root.scrollHeight-H),sp=y/mx,hs=cl(y/H,0,1);
+root.style.setProperty('--sp',sp.toFixed(4));root.style.setProperty('--hs',hs.toFixed(4));
+if(lsv&&!mb()){if(calm()){lsv.style.translate='';lsv.style.rotate=''}else{lsv.style.translate='0 '+(-sp*160)+'px';lsv.style.rotate=(sp*5)+'deg'}}
+if(!mb()&&!calm()){const r=pin.getBoundingClientRect(),p=cl(-r.top/Math.max(1,r.height-H),0,1),k=Math.min(2,Math.floor(p*3));tgt=p;sxs.forEach((e,i)=>e.classList.toggle('on',i===k));$('#rn').textContent='0'+(k+1);sm()}
+
+const l=lit.getBoundingClientRect(),q=calm()?1.2:cl((H*.88-l.top)/(l.height+H*.4),0,1.2);ls.forEach((e,i)=>e.classList.toggle('a',i<q*ls.length))})}
+addEventListener('scroll',onS,{passive:true});addEventListener('resize',onS);onS();
+const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting&&mb())e.target.classList.add('on')}),{threshold:.3});sxs.forEach(e=>sio.observe(e));
+const ltn=$('#ltn'),lag=$('#lag');let saved=false;
+function setLite(on,save){root.classList.toggle('lite',on);ltn.setAttribute('aria-checked',on);ltn.firstElementChild.textContent=on?'Интерфейс: лёгкий':'Интерфейс сайта';if(save){try{localStorage.setItem('plazma-lite',on?'1':'0')}catch(e){}}if(typeof onS==='function')onS()}
+ltn.onclick=()=>{const on=!root.classList.contains('lite');setLite(on,true);t(on?'Облегчённый режим включён':'Анимации включены')};
+try{const v=localStorage.getItem('plazma-lite');saved=v!==null;if(v==='1')setLite(true,false)}catch(e){}
+$('#lagy').onclick=()=>{lag.hidden=true;setLite(true,true);t('Облегчённый режим включён')};
+$('#lagx').onclick=()=>{lag.hidden=true;try{localStorage.setItem('plazma-lite','0')}catch(e){}};
+if(!saved&&!root.classList.contains('lite')){let hid=false,fr=0,t0=0;document.addEventListener('visibilitychange',()=>{if(document.hidden)hid=true});
+const chk=n=>{if(!t0)t0=n;fr++;if(n-t0<2600)requestAnimationFrame(chk);else{const f=fr/((n-t0)/1000);if(!hid&&f<42&&!root.classList.contains('lite'))lag.hidden=false}};
+setTimeout(()=>requestAnimationFrame(chk),1200)}
+</script>
+</body>
+</html>
